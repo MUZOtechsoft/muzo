@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muzotechsoft|Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="assets\images\logo\UZO_20240202_213313_0000-Photoroom.png-Photoroom.png">
     <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.css">
@@ -20,39 +21,7 @@
 <body>
 
     <!-- start header area -->
-    <!-- start header area -->
     <header class="header--sticky header-one ">
-        <div class="header-top header-top-one bg-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-xl-block d-none">
-                        <div class="left">
-                            <div class="mail">
-                                <a href="mailto:muzotechsoft@gmail.com"><i class="fal fa-envelope"></i> muzotechsoft@gmail.com</a>
-                            </div>
-                            <div class="working-time">
-                                <p><i class="fal fa-clock"></i> Working: 8.00am - 5.00pm</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 d-xl-block d-none">
-                        <div class="right">
-                            <ul class="top-nav">
-                                <li><a href="about-us.html">About</a></li>
-                                <li><a href="blog-list.html">News</a></li>
-                                <li><a href="contactus.html">Contact</a></li>
-                            </ul>
-                            <ul class="social-wrapper-one">
-                                <li><a href="https://www.facebook.com/profile.php?id=61552121853177&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://twitter.com/Muzotechsoft"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/muzo.techsoft?utm_source=qr&igsh=MWIzYXZpNTR6bWR5cA=="><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="mr--0" href="https://www.linkedin.com/in/muzo-techsoft-03b36827b/"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="header-main-one bg-white">
             <div class="container">
                 <div class="row">
@@ -68,15 +37,26 @@
                             <nav class="nav-main mainmenu-nav d-none d-xl-block">
                                 <ul class="mainmenu">
                                     <li><a class="nav-item" href="index.html">Home</a></li>
-                                    <li><a class="nav-item" href="about-us.html">AboutUs</a></li>
                                     <li><a class="nav-item" href="service-details.html">Service</a></li>
-                                    <li><a class="nav-item" href="blog-list.html">Blog</a></li>
-                                    <li><a class="nav-item" href="contactus.html">Contact</a></li>
+                                    <li class="has-droupdown">
+                                        <a class="nav-link" href="#">Company</a>
+                                        <ul class="submenu menu-link3">
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="contactus.html">Contact Us</a></li>
+                                            <li><a href="career.html">Careers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-droupdown">
+                                        <a class="nav-link" href="#">Resources</a>
+                                        <ul class="submenu menu-link3">
+                                            <li><a href="blog-list.html">Our Blogs</a></li>
+                                            <li><a href="cause.html">Case Studies</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </nav>
                             <div class="button-area">
                                 <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
-                                <a href="contactus.html" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get Quote</a>
                                 <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                     <img class="menu-dark" src="assets/images/icon/menu.png" alt="Menu-icon">
                                     <img class="menu-light" src="assets/images/icon/menu-light.png" alt="Menu-icon">
@@ -142,10 +122,33 @@
                 <nav class="nav-main mainmenu-nav">
                     <ul class="mainmenu">
                         <li><a class="nav-item" href="index.html">Home</a></li>
-                        <li><a class="nav-item" href="about-us.html">AboutUs</a></li>
-                        <li><a class="nav-item" href="service-details.html">Service</a></li>
-                        <li><a class="nav-item" href="blog-list.html">Blog</a></li>
-                        <li><a class="nav-item" href="contactus.html">Contact</a></li>
+                        <li class="has-droupdown menu-item">
+                            <a class="menu-link" href="#">Service</a>
+                            <ul class="submenu">
+                                <li class="mobile-menu-link"><a href="about-us.html">Application Development</a></li>
+                                <li class="mobile-menu-link"><a href="contactus.html">Mobile App Development</a></li>
+                                <li class="mobile-menu-link"><a href="career.html">Web App Development</a></li>
+                                <li class="mobile-menu-link"><a href="about-us.html">UI / UX Design</a></li>
+                                <li class="mobile-menu-link"><a href="contactus.html">Digital Marketing</a></li>
+                                <li class="mobile-menu-link"><a href="career.html">Socialmedia Marketing</a></li>
+                                <li class="mobile-menu-link"><a href="career.html">DevSecOps</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-droupdown menu-item">
+                            <a class="menu-link" href="#">Company</a>
+                            <ul class="submenu">
+                                <li class="mobile-menu-link"><a href="about-us.html">About Us</a></li>
+                                <li class="mobile-menu-link"><a href="contactus.html">Contact Us</a></li>
+                                <li class="mobile-menu-link"><a href="career.html">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-droupdown menu-item">
+                            <a class="menu-link" href="#">Resources</a>
+                            <ul class="submenu">
+                                <li class="mobile-menu-link"><a href="blog-list.html">Our Blogs</a></li>
+                                <li class="mobile-menu-link"><a href="case.html">Case Studies</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
                 <div class="social-wrapper-two menu mobile-menu">
@@ -155,7 +158,6 @@
                     <a href="#"><i class="fab fa-whatsapp"></i></a>
                     <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                 </div>
-                <a href="contactus.html" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Get Quote</a>
             </div>
         </div>
         <!-- inner menu area desktop End -->
@@ -237,55 +239,343 @@
     </div>
     <!-- banner blank space area end -->
 
+    <!-- rts service post area  Start-->
+    <div class="rts-service-area rts-section-gapBottom">
+        <div class="container-fluid service-main plr--120-service mt--50 plr_md--0 pl_sm--0 pr_sm--0">
+            <div class="background-service row">
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" alt="Muzotechsoft_Home bg-danger">
+                    <div class="service-one-inner two" alt="Muzotechsoft_contact us">
+                        <div class="thumbnail" alt="Muzotechsoft">
+                            <img src="assets/images/service/icon/1.png" alt="Muzotechsoft_service">
+                        </div>
+                        <div class="service-details" alt="Muzotechsoft">
+                            <a href="service-details.html" alt="muzotechsoft">
+                                <h5 class="title" alt="muzotechsoft">Digitalization</h5>
+                            </a>
+                            <p class="disc" alt="muzotechsoft">
+                                Muzotechsoft leverages top-notch industry and technical knowledge to unlock maximum value in technology, data, and operations, 
+                                hastening your distinctive digital transformation journey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner three">
+                        <div class="thumbnail">
+                            <img src="assets/images/service/icon/2.png" alt="finbiz_service">
+                        </div>
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Web development</h5>
+                            </a>
+                            <p class="disc">
+                                Our services seamlessly integrate middleware/database, automation, maintenance, infrastructure, 
+                                and application transformation, alongside end-to-end DevOps processes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="thumbnail">
+                            <img src="assets/images/service/icon/3.png" alt="finbiz_service">
+                        </div>
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Product Engineering</h5>
+                            </a>
+                            <p class="disc">
+                                As a comprehensive product engineering partner, we manage every stage of the product lifecycle, including brainstorming, design, prototyping, development, release, and expansion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+            </div>
+            
+        </div>
+    </div>
+    <!-- rts service post area ENd -->
+
+    <div class="rts-service-area rts-section-gapBottom">
+        <div class="container-lg service-main plr--0-service mt--0 plr_md--0 pl_sm--0 pr_sm--0">
+            <div class="row">
+                <div class="cta-one-bg ">
+                    <div class="cta-one-inner">
+                        <div class="cta-left col-1">
+                            <h3 class="title">Searching for Best Software Company?</h3>
+                        </div>
+                        <div class="cta-right col-md-7">
+                            <p class="text-white justify-content-center text-center">Based in both the US and India, MUZO Corporate Pvt. Ltd. is a prominent provider of digital transformation services. 
+                            Our knowledgeable staff has expertise in cloud computing, DevOps, quality assurance services, and developing mobile and online apps.
+                            We enable businesses and startups to prosper in the current digital environment by providing them with top people and tailored solutions.
+                            MUZO Corporate is a trusted provider of mission-critical solutions to businesses globally, as attested by leaders in the industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rts-counter up area start -->
+    <div class="rts-counter-up-area rts-section-gap counter-bg bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter">
+                        <img src="assets/images/counterup/icon/04.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig">70</span></h2>
+                            <p class="disc">Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter pl--10 justify-content-center two pl--30">
+                        <img src="assets/images/counterup/icon/02.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig">120</span></h2>
+                            <p class="disc">Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter pl--10 justify-content-center three pl--50">
+                        <img src="assets/images/counterup/icon/03.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title"><span class="counter animated fadeInDownBig">300</span></h2>
+                            <p class="disc">People</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter pl--10 justify-content-end four">
+                        <img src="assets/images/counterup/icon/01.svg" alt="Business_counter">
+                        <div class="counter-details">
+                            <h2 class="title happy"><span class="counter animated fadeInDownBig">8</span></h2>
+                            <p class="disc">Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
+            </div>
+        </div>
+    </div>
+    <!-- rts-counter up area end -->
+
+
+    <div class="rts-service-area rts-section-gapBottom" alt="Muzotechsoft">
+        <div class="container-fluid service-main plr--120-service mt--10 plr_md--0 pl_sm--0 pr_sm--0" alt="Muzotechsoft">
+            <div class="background-service row" alt="Muzotechsoft">
+                <div class="col-12">
+                    <div class="title-area text-center">
+                        <h2 class="title">What we Offer</h2>
+                    </div>
+                </div>
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">App Development Services</h5>
+                            </a>
+                            <p class="disc">
+                                Delivering customized applications to our clients...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Mobile App Development</h5>
+                            </a>
+                            <p class="disc">
+                                Customized mobile app <br> solutions...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Web App Development</h5>
+                            </a>
+                            <p class="disc">
+                                Dynamic web applications for businesses...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">UI / UX Design Services</h5>
+                            </a>
+                            <p class="disc">
+                                Engaging user interfaces and experiences...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Digital Marketing Services</h5>
+                            </a>
+                            <p class="disc">
+                                Strategic online marketing solutions...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">DevSecOps Services</h5>
+                            </a>
+                            <p class="disc">
+                                Efficient software development and IT operations...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Cloud Engineering Services</h5>
+                            </a>
+                            <p class="disc">
+                                Scalable and secure cloud solutions...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title">Socialmadia Management</h5>
+                            </a>
+                            <p class="disc">
+                                Strategic socialmedia management solutions...
+                            </p>
+                            <a class="rts-read-more btn-primary" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+                <!-- start single Service -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="service-one-inner four">
+                        <div class="service-details">
+                            <a href="service-details.html">
+                                <h5 class="title text-danger">Looking for a reliable IT Solutions Partner?s</h5>
+                            </a>
+                            <a class="rts-read-more btn-primary text-danger" href="service-details.html"><i
+                                class="far fa-arrow-right"></i>contact us!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single Services -->
+            </div>
+        </div>
+    </div>
+    <!-- rts service post area ENd -->
+    
+
     <!-- rts about us section start -->
     <div class="rts-about-area rts-section-gap bg-about-sm-shape">
         <div class="container">
-            <div class="row g-5 align-items-center">
+            <div class="row g-1 align-items-center">
                 <!-- about left -->
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--20">
                     <div class="rts-title-area">
                         <p class="pre-title">
                             More About Us
                         </p>
                         <h2 class="title">
-                            Tech Soft offers the most 
-                            effective protocol solution</h2>
+                            Our Value Proposition</h2>
                     </div>
                     <div class="about-inner">
-                        <p class="disc">
-                            Our company specializes in developing web and mobile applications for both startups and established businesses. We focus on crafting efficient technical solutions through full-cycle product development, which includes market research, idea refinement, product development, launch, and ongoing support. Our goal is to minimize our ecological footprint through eco-friendly practises waste reduction, and support for renewable resources. We advocate for diversity, inclusion, and positive social change by engaging with communities.
-                        </p>
                         <!-- start about success area -->
                         <div class="row about-success-wrapper">
                             <!-- left wrapper start -->
                             <div class="col-lg-6 col-md-6">
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Fully custom solution</p>
+                                    <p class="details">Dedicated Team</p>
                                 </div>
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Analysis of deep cases.</p>
+                                    <p class="details">Same Time Zone</p>
                                 </div>
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Best practices in development</p>
+                                    <p class="details">R&D partner</p>
                                 </div>
                             </div>
                             <!-- left wrapper end -->
                             <div class="col-lg-6 col-md-6">
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Tech support and upkeep
+                                    <p class="details">Product Development
                                     </p>
                                 </div>
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Tech consulting services</p>
+                                    <p class="details">Expert Developers</p>
                                 </div>
                                 <div class="single">
                                     <i class="far fa-check"></i>
-                                    <p class="details">Quality assurance testing of software</p>
+                                    <p class="details">Industry Experts</p>
                                 </div>
                             </div>
                         </div>
@@ -293,32 +583,6 @@
 
                         <!-- about founder & get in touch start -->
                         <div class="row about-founder-wrapper align-items-center mt--40">
-                            <!-- left area start -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="author-inner">
-                                    <a class="thumbnail" href="https://santhosh-webdeveloper.netlify.app"></a>
-                                    <div class="founder-details">
-                                        <a href="https://santhosh-webdeveloper.netlify.app">
-                                            <h6 class="title">Santhosh</h6>
-                                        </a>
-                                        <span>Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- left area end -->
-                            <!-- right founder area -->
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_sm--20">
-                                <div class="author-call-option">
-                                    <img class="authore-call" src="assets/images/about/call.svg" alt="call_founder">
-                                    <div class="call-details">
-                                        <span>Call us anytime</span>
-                                        <a href="tel:+91 6383193254">
-                                            <h6 class="title">+91 6383193254</h6>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- left founder area -->
                         </div>
                         <!-- about founder & get in touch end -->
                     </div>
@@ -330,16 +594,6 @@
                     <div class="about-one-thumbnail">
                         <img src=" assets/images/about/main/about-01.png" alt="about-finbiz">
                         <img class="small-img" src="assets/images/about/main/about-02.png" alt="finbiz-small">
-                        <div class="experience">
-                            <div class="left single">
-                                <h2 class="title"></h2>
-                                <p class="time"></p>
-                            </div>
-                            <div class="right single">
-                                <p class="disc">
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- about-right end -->
@@ -347,204 +601,6 @@
         </div>
     </div>
     <!-- rts about us section end -->
-
-    <!-- rts service post area  Start-->
-    <div class="rts-service-area rts-section-gapBottom" alt="Muzotechsoft">
-        <div class="container" alt="Muzotechsoft">
-            <div class="row" alt="Muzotechsoft">
-                <div class="col-12" alt="Muzotechsoft">
-                    <div class="rts-title-area service text-center" alt="Muzotechsoft">
-                        <p class="pre-title" alt="Muzotechsoft"></p>
-                        <h2 class="title" alt="Muzotechsoft">High Quality</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid service-main plr--120-service mt--50 plr_md--0 pl_sm--0 pr_sm--0" alt="Muzotechsoft">
-            <div class="background-service row" alt="Muzotechsoft">
-                <!-- start single Service -->
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" alt="Muzotechsoft_Home">
-                    <div class="service-one-inner two" alt="Muzotechsoft_contact us">
-                        <div class="thumbnail" alt="Muzotechsoft">
-                            <img src="assets/images/service/icon/02.svg" alt="Muzotechsoft_service">
-                        </div>
-                        <div class="service-details" alt="Muzotechsoft">
-                            <a href="service-details.html" alt="muzotechsoft">
-                                <h5 class="title" alt="muzotechsoft">Dsigitization</h5>
-                            </a>
-                            <p class="disc" alt="muzotechsoft">
-                                Muzotechsoft leverages top-notch industry and technical knowledge to unlock maximum value in technology, data, and operations, 
-                                hastening your distinctive digital transformation journey.
-                            </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html" alt="muzotechsoft"><i
-                                    class="far fa-arrow-right" alt="muzotechsoft"></i>Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end single Services -->
-                <!-- start single Service -->
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-one-inner three">
-                        <div class="thumbnail">
-                            <img src="assets/images/service/icon/03.svg" alt="finbiz_service">
-                        </div>
-                        <div class="service-details">
-                            <a href="service-details.html">
-                                <h5 class="title">Web development</h5>
-                            </a>
-                            <p class="disc">
-                                Our services seamlessly integrate middleware/database, automation, maintenance, infrastructure, 
-                                and application transformation, alongside end-to-end DevOps processes.
-                            </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
-                                    class="far fa-arrow-right"></i>Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end single Services -->
-                <!-- start single Service -->
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-one-inner four">
-                        <div class="thumbnail">
-                            <img src="assets/images/service/icon/04.svg" alt="finbiz_service">
-                        </div>
-                        <div class="service-details">
-                            <a href="service-details.html">
-                                <h5 class="title">Product Engineering</h5>
-                            </a>
-                            <p class="disc">
-                                As a comprehensive product engineering partner, we manage every stage of the product lifecycle, including brainstorming, design, prototyping, development, release, and expansion.
-                            </p>
-                            <a class="rts-read-more btn-primary" href="service-details.html"><i
-                                    class="far fa-arrow-right"></i>Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end single Services -->
-                
-            </div>
-            <div class="row">
-                <div class="cta-one-bg col-12">
-                    <div class="cta-one-inner">
-                        <div class="cta-left">
-                            <h3 class="title">Let's talk about how 
-                                we can enhance your plans</h3>
-                        </div>
-                        <div class="cta-right">
-                            <a class="rts-btn btn-white" href="contact-form.html">Lets Work Together</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts service post area ENd -->
-
-    <!-- business goal area -->
-    <div class="rts-business-goal mt--0 rts-section-gapBottom">
-        <div class="container">
-            <div class="row">
-                <!-- business goal left -->
-                <div class="col-lg-6">
-                    <div class="business-goal-one">
-                        <img src="assets/images/business-goal/01.jpg" alt="Business_Goal">
-                        <img class="small" src="assets/images/business-goal/sm-01.jpg" alt="Business_Goal">
-                    </div>
-                </div>
-                <!-- business goal right -->
-
-                <!-- right area business -->
-                <div class="col-lg-6 mt--35 mt_md--70 mt_sm--70" alt="web development companies near me">
-                    <div class="business-goal-right" alt="web development companies near me">
-                        <div class="rts-title-area business text-start pl--30" alt="web development companies near me">
-                            <p class="pre-title" alt="web development companies near me">
-                                JUST A CONSULTANCY
-                            </p>
-                            <h2 class="title" alt="web development companies near me">Our expertise lies in managing consultancy globally.</h2>
-                        </div>
-                        <div class="rts-business-goal pl--30" alt="web development companies near me">
-                            <div class="single-goal" alt="web development companies near me">
-                                <img src="assets/images/business-goal/icon/01.svg" alt="web development companies" class="thumb">
-                                <div class="goal-wrapper" alt="web development companies near">
-                                    <h6 class="title" alt="web development companies near">Best  IT Consulting</h6>
-                                    <p class="disc" alt="web development companies ">We develop website & apps that revolutionize businesses. We collaborate on products that have the potential to shape the future. 
-                                        We enable your business to achieve its maximum potential!</p>
-                                </div>
-                            </div>
-                            <div class="single-goal" alt="web development companies near">
-                                <img src="assets/images/business-goal/icon/02.svg" alt="business_Icone" class="thumb">
-                                <div class="goal-wrapper">
-                                    <h6 class="title">24/7 Customer Support</h6>
-                                    <p class="disc">24/7 service: Always available for your needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- right area business ENd -->
-            </div>
-        </div>
-    </div>
-    <!-- business goal area End -->
-
-    
-
-    
-    <!-- rts features area start -->
-    <div class="rts-feature-area rts-section-gap">
-        <div class="container-fluid padding-controler plr--120">
-            <div class="row bg-white-feature  pt--120 pb--120">
-                <div class="col-xl-6 col-lg-12">
-                    <div class="feature-left-area">
-                        <img src="assets/images/feature/01.png" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-12">
-                    <div class="rts-title-area feature text-start pl--30 pl_sm--0">
-                        <p class="pre-title">
-                            Boost Your Business Today
-                        </p>
-                        <h2 class="title feature-title">Our Value <br>
-                            Proposition</h2>
-                        <p>Porttitor ornare fermentum aliquam pharetra ut facilisis gravida risus suscipit feugiat fusce
-                            conubia ridiculus tristique solving parturient natoque vulputate risu hasellus quam
-                            tincidunt posuere aliquam accumsan</p>
-
-                    </div>
-
-                    <div class="feature-one-wrapper pl--30 mt--40 pl_sm--0">
-                        <div class="single-feature-one">
-                            <i class="fal fa-check"></i>
-                            <p>Dedicated Team</p>
-                        </div>
-                        <div class="single-feature-one">
-                            <i class="fal fa-check"></i>
-                            <p>Industry Experts</p>
-                        </div>
-                        <div class="single-feature-one">
-                            <i class="fal fa-check"></i>
-                            <p>Same TimeZone</p>
-                        </div>
-                        <div class="single-feature-one">
-                            <i class="fal fa-check"></i>
-                            <p>R&D partner</p>
-                        </div><div class="single-feature-one">
-                            <i class="fal fa-check"></i>
-                            <p>Expert Developers</p>
-                        </div>
-                        <div class="single-feature-one">
-                            <i class="fal fa-check"></i>
-                            <p>Excelent Design</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts features area end -->
 
     
 
@@ -703,36 +759,6 @@
     <!-- rts footer area start -->
     <div class="rts-footer-area footer-one rts-section-gapTop bg-footer-one">
         <div class="container bg-shape-f1">
-            <!-- footer call to action area -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="rts-cta-wrapper">
-                        <div class="background-cta">
-                            <div class="row">
-                                <!-- cta-left -->
-                                <div class="col-lg-6">
-                                    <div class="cta-left-wrapepr">
-                                        <p class="cta-disc">
-                                            Latest Business Ideas
-                                        </p>
-                                        <h3 class="title">Sign Up Newsletter</h3>
-                                    </div>
-                                </div>
-                                <!-- cta left end -->
-                                <div class="col-lg-6">
-                                    <!-- cta right -->
-                                    <form class="cta-input-arae">
-                                        <input type="email" name="email" placeholder="Enter Email Address" required>
-                                        <button type="submit" href="muzotechsoft@gmail.icom" class="rts-btn btn-primary">Subscribe Now</button>
-                                    </form>
-                                    <!-- cta right End -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- footer call to action area End -->
             <!-- rts footer area -->
             <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12">
@@ -781,8 +807,8 @@
                             <img src="assets/images/footer/under-title.png" alt="finbiz_footer">
                         </div>
                         <div class="footer-three-single-wized left">
-                            <p class="disc">Our goal is to create a product and service that you’re satisfied with and use it every day. 
-                                This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
+                            <p class="disc">Our goal is to create a product and service that you’re satisfied with and use every day. 
+                                This is why we're constantly working on improving our services every day and listening to what our users have to say.</p>
                             <ul class="social-three-wrapper">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -803,7 +829,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="text-center">
-                            <p>MUZOtechsoft Copyright 2022. All rights reserved|<a href="tearms.html">Tearms</a>|<a href="tearms.html">Privacy Policy</a></p>
+                            <p>MUZO Copyright 2022. All rights reserved|<a href="tearms.html">Tearms</a>|<a href="tearms.html">Privacy Policy</a></p>
                         </div>
                     </div>
                 </div>
@@ -834,6 +860,7 @@
 
 
     <!-- scripts start form hear -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="/appoinment.js"></script>
     <script src="assets/js/vendor/jquery.min.js"></script>
     <script src="assets/js/vendor/jqueryui.js"></script>
